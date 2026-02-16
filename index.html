@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEMI</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="shortcut icon" href="Imagenes/iconoPagina.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/estilo.css">
+</head>
+<body>
+    <header>
+        <div class="contenedorIzquierdo"><img src="Imagenes/logoMemi.png" alt="" class="logoMemi"><span class="memi">CENTRO MEMI</span>
+        </div>
+        <div class="grupoDerecho">
+              <button id="botonHamburguesa">&#9776;</button>
+            <div class="contenedorDerecho">
+                <span class="facultad">FACULTAD DE CIENCIAS Y TECNOLOGIA</span>
+                <img src="Imagenes/logoFacultad.png" alt="" class="logoFacultad">
+            </div>
+        </div>
+    </header>
+<!-- MENU -->
+<nav id="menu" class="menu">
+  <ul class="opcionesMenu">
+    <li><a href="#misionVisionValores">Misión Visión Valores</a></li>
+
+    <li class="opcionSubmenu">
+      <button class="botonSubmenu">
+        Acerca de <span>▾</span>
+      </button>
+      <a class="subMenuEscritorio" href="#acerca">Acerca de</a>
+      <ul id="submenuAcerca" class="submenuAcerca">
+        <li><a href="#acerca-antecedentes">Antecedentes</a></li>
+        <li><a href="#acerca-datos">Datos históricos</a></li>
+        <li><a href="#acerca-autoridades">Autoridades</a></li>
+      </ul>
+    </li>
+
+    <li><a href="#cursos">Cursos / Seminarios</a></li>
+    <li><a href="#publicaciones">Publicaciones</a></li>
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#icpc">ICPC UMSS</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+</nav>
+
+    <main>
+        <!-- BIENVENIDA -->
+       <div class="bienvenida">
+        <h1>FORMACION Y EDUCACION PARA UNA ENSEÑANZA DE CALIDAD</h1>
+        <img src="Imagenes/bienvenida.jpg" alt="Bienvenida">
+        <div><a href="#novedades"><button>Seguir Navegando</button></a></div>
+       </div>
+       <hr class="separadorSeccion">
+        <!-- CARRUCEL  -->
+        <div class="contenedorCarrucel" id="novedades">
+        <h2>NOVEDADES</h2>
+        <div class="carrucel">
+        <img class="imagenes" src="Imagenes/aviso1.png">
+        <img class="imagenes" src="Imagenes/aviso2.jpg">
+        <img class="imagenes" src="Imagenes/aviso3.png">
+        </div>
+        </div>
+        
+        <article>
+            <hr class="separadorSeccion">
+            <!-- SECCION 1  -->
+           <section id="misionVisionValores" class="seccion1">
+            <div class="s1contenedor1">
+                <h2>CENTRO MEMI</h2>
+                <p>El Centro MEMI (Mejoramiento de la Enseñanza de la Matemática e Informática) de la Universidad Mayor de San Simón (UMSS) es una unidad académica institucional que se dedica a promover y fortalecer la calidad educativa en matemáticas e informática. A través de cursos, seminarios, asesoramientos y publicaciones especializadas, el MEMI brinda apoyo tanto a docentes universitarios como a profesores de colegio. Asimismo, ofrece servicios de actualización profesional, organiza eventos académicos y facilita la difusión del conocimiento mediante recursos pedagógicos de apoyo.</p>
+            </div>
+
+            <div class="s1-grid">
+                <div class="card s1contenedor2">
+                <h3>MISIÓN</h3>
+                <img src="Imagenes/mision.png" alt="Misión">
+                <p>Brindar cursos especializados, asesoramiento y elaboración de textos de apoyo a profesionales de las áreas de Matemáticas e Informática tanto de Universidad como de Colegio, orientados al mejoramiento de su enseñanza y aprendizaje.</p>
+                </div>
+
+                <div class="card s1contenedor3">
+                <h3>VISIÓN</h3>
+                <img src="Imagenes/vision.png" alt="Visión">
+                <p>Ser un Centro de apoyo de referencia en la enseñanza de la Matemática y la Informática en nuestra comunidad, tanto para profesionales universitarios, profesores de colegio y estudiantes.</p>
+                </div>
+
+                <div class="card s1contenedor4">
+                <h3>VALORES</h3>
+                <img src="Imagenes/valores.png" alt="Valores">
+                <p>Nuestros valores son:</p>
+                <ul>
+                    <li>Respeto</li>
+                    <li>Colaboración</li>
+                    <li>Compromiso</li>
+                    <li>Responsabilidad</li>
+                    <li>Confianza</li>
+                    <li>Trabajo en equipo</li>
+                    <li>Espíritu crítico</li>
+                    <li>Innovación</li>
+                    <li>Creatividad</li>
+                </ul>
+                </div>
+            </div>
+            </section>
+            <hr class="separadorSeccion">
+            <!-- SECCION 2  -->
+            <section  id="acerca" class="w3-row-padding seccion2">
+                <h2>ACERCA DE</h2>
+                <hr class="separadorSubseccion">
+                <div class="s2contenedor1" id="acerca-antecedentes">
+                   <h3>Antecedentes</h3>
+                   <div>
+                        <p>En enero de 1991 inició sus actividades el Programa de Mejoramiento de la Enseñanza de la Matemática e Informática (MEMI), con el objetivo de mejorar la educación en las áreas de Matemática e Informática de la Facultad de Ciencias y Tecnología en la Universidad Mayor de San Simón. El Proyecto cubrió tres áreas: Matemáticas a nivel universitario, Matemáticas a nivel ciclo medio e Informática a nivel universitario. La segunda fase del Programa MEMI abarca el período 1994-1997, en la cual se destacan los primeros posgrados de San Simón, en áreas de Matemática e Informática. Finalmente, la tercera fase abarca el período 1999-2003. Su tarea fundamental, en base al compromiso asumido con los cooperantes holandeses (NUFFIC y la Universidad de Utrecht), fue garantizar la sostenibilidad de las actividades de este Programa.
+                        A partir del 2010, mediante Resolución Rectoral N° 389/10, el Programa MEMI adopta la denominación de Centro de Mejoramiento de la Enseñanza de la Matemática e Informática (Centro MEMI).
+                        </p>
+                        <img src="Imagenes/antecedentes.png" alt="Edificio Memi">
+                    </div>
+                </div>
+                <hr class="separadorSubseccion">
+                <div class="s2contenedor2"  id="acerca-datos">
+                    <h3>Datos Historicos</h3>
+                    <div>
+                        <p>Desde su consolidación como Centro MEMI en 2010, la institución ha fortalecido su carácter académico y científico dentro de la Facultad de Ciencias y Tecnología de la UMSS. A partir de esa fecha se reorganizó en tres laboratorios especializados: Educación Científica, TIC's y Multimedia y Modelización y Simulación Virtual, con el fin de diversificar sus líneas de investigación y enseñanza.
+                        </p>
+                        <p>Entre los hitos más relevantes se encuentran:</p>
+                        <ul>
+                            <li><span>2011-2013:</span> Implementación de plataformas educativas virtuales y desarrollo de programas de formación en tutoría virtual.</li>
+                            <li><span>2014-2018:</span> Innovación pedagógica en la enseñanza del cálculo, el diseño de laboratorios virtuales de programación y proyectos de inclusión digital.</li>
+                            <li><span>2019-2020:</span> Participación en proyectos internacionales como SELI (Smart Ecosystem for Learning and Inclusion) y la TDT Educativa, enfocados en educación inclusiva y tecnologías de aprendizaje.</li>
+                            <li><span>Actualidad:</span> Consolidación como espacio de investigación, formación y difusión académica en Matemática e Informática, apoyando a docentes, estudiantes y la comunidad en general.</li>
+                        </ul>
+                        <img src="Imagenes/datosHistoricos.png" alt="Edificio Memi">
+                    </div>
+                </div>
+                <hr class="separadorSubseccion">
+                <div class="s2contenedor3" id="acerca-autoridades">
+                    <h3>Autoridades</h3>
+                    <div> 
+                        <div class="autoridad">
+                            <div class="autoridadIzquierda">
+                                <img src="Imagenes/rolando.png" alt="Director Centro MEMI">
+                            </div>
+                            <div class="autoridadDerecha">
+                                <h4 class="cargo">Director Centro MEMI</h4>
+                                <p class="nombre">Mgr. Kirt Rolando Jaldín Rosales</p>
+                            </div>
+                        </div>
+
+                        <div class="autoridad">
+                            <div class="autoridadIzquierda">
+                                <img src="Imagenes/zegarra.png" alt="Director Centro MEMI">
+                            </div>
+                            <div class="autoridadDerecha">
+                                <h4 class="cargo">Coordinador Área Matemática</h4>
+                                <p class="nombre">Mgr. Luis Roberto Zegarra Dorado</p>
+                            </div>
+                        </div>
+
+                        <div class="autoridad">
+                            <div class="autoridadIzquierda">
+                                <img src="Imagenes/orellana.png" alt="Director Centro MEMI">
+                            </div>
+                            <div class="autoridadDerecha">
+                                <h4 class="cargo">Coordinador Área Informática</h4>
+                                <p class="nombre">Mgr. Jorge Orellana Araoz</p>
+                            </div>
+                            </div>
+                    </div>
+                    <div>
+                        <h3>Organigrama</h3>
+                        <img src="Imagenes/organigrama.png" alt="" class="organigrama">
+                    </div>
+                </div>
+            </section>
+            <hr class="separadorSeccion">
+            <!-- SECCION 3 -->
+            <section  id="cursos" class="w3-row-padding seccion3">
+                <h2>CURSOS / SEMINARIOS</h2>
+                <div class="w3-col s12 m12 l12"> 
+                <form action="" onsubmit="registrarCurso(event)">
+                    <h3>Registro de Curso</h3>
+                    <div>
+                    <label >Titulo de Documento :</label>
+                    <input id="tituloCurso" type="text" required maxlength="42" minlength="5" placeholder="TALLER DE DISEÑO UI/UX" style="text-transform: uppercase;">
+                    <label>Fecha de Publicacion :</label>
+                    <input id="fechaCurso" type="date" required>
+                    <label >Afiche</label>
+                    <input id="aficheCurso" type="file" accept="image/*" value="" required>
+                    <button type="submit">Subir Curso</button>
+                    </div>
+                </form>
+                </div> 
+                <div class="w3-col s12 m6 l4 curso"> 
+                    <h3>SEMINARIO DE TDD 2023</h3>
+                    <h4>30/09/2024</h4>
+                    <img src="Imagenes/curso1.png" alt="Banner-Curso">
+                </div>   
+                <div class="w3-col s12 m6 l4 curso"> 
+                    <h3>SEMINARIO DE IA 2023</h3>
+                    <h4>13/05/2024</h4>
+                    <img src="Imagenes/curso2.png" alt="Banner-Curso">
+                </div>  
+                 <div class="w3-col s12 m6 l4 curso"> 
+                    <h3>TALLER DE PROGRAMACION 2023</h3>
+                    <h4>17/07/2023</h4>
+                    <img src="Imagenes/curso3.png" alt="Banner-Curso">
+                </div>  
+            </section>
+
+            <hr class="separadorSeccion">
+             <!-- SECCION 4 -->
+
+            <section  id="publicaciones" class="w3-row-padding seccion4">
+                <h2>PUBLICACIONES</h2>
+                <div class="w3-col s12 m12 l12"> 
+                    <form action="" onsubmit="registrarPublicacion(event)">
+                        <h3>Registro de Publicacion</h3>
+                        <div>
+                            <label>Area</label>
+                            <select name="" id="">
+                                <option value="Informatica">Informatica</option>
+                                <option value="Matematica">Matematicas</option>
+                            </select>
+                            <label>Titulo de Documento</label>
+                            <input type="text" maxlength="39" minlength="5" placeholder="Introducción al Cálculo Diferencial" required>
+                            <label>Descripcion Breve</label>
+                            <textarea maxlength="322 caracteres" minlength="10" placeholder="Compilación de ejercicios y teoría para reforzar temas de álgebra y geometría." required></textarea>
+                            <label>Archivo PDF</label>
+                            <input type="file" accept="application/pdf" required>
+                            <button type="submit">Subir Publicacion</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="filtros">
+                    <button class="filtro1">Matematicas</button>
+                    <button class="filtro2">Informatica</button>
+                </div>
+                <div class="w3-card tarjeta" id="Matematica">
+                    <h3>Formulario de Trigonometria</h3>
+                    <hr>
+                    <div>
+                        <a href="Documentos/documentosMatematicas1.pdf" download><img src="Imagenes/simboloPDF.png" alt="PDF"></a>
+                        <p>Este documento presenta una recopilación de ejercicios de temas como aritmética, geometría y trigonometría, diseñado como material de referencia para estudiantes.</p>
+                    </div>
+                </div> 
+                <div class="w3-card tarjeta" id="Matematica">
+                    <h3>Texto de Matemáticas</h3>
+                    <hr>
+                    <div>
+                        <a href="Documentos/documentosMatematicas1.pdf" download><img src="Imagenes/simboloPDF.png" alt="PDF"></a>
+                        <p>Este texto aborda temas fundamentales de matemáticas como números racionales, expresiones decimales y teoría con ejercicios desarrollados. Puede usarse como material complementario para estudiantes de nivel universitario.</p>
+                    </div>
+                </div>    
+
+                <div class=" w3-card tarjeta" id="Informatica">
+                    <h3>Texto de Introduccion a la Programacion</h3>
+                    <hr>
+                    <div>
+                        <a href="Documentos/introduccionProgramacion.pdf" download><img src="Imagenes/simboloPDF.png" alt="PDF"></a>
+                        <p>Este texto introduce los conceptos básicos de la programación, como algoritmos, pseudocódigo, diagramas de flujo y variables, con ejemplos claros y explicaciones sencillas. Es un material útil para iniciar el aprendizaje de la lógica y estructura de los programas.</p>
+                    </div>
+                </div>  
+            </section>
+            <hr class="separadorSeccion">
+            <!-- SECCION 5 -->
+            
+            <section id="servicios" class="w3-row-padding seccion5">
+                <h2>SERVICIOS</h2>
+                 <div class="servicio">
+                    <div>
+                    <img src="Imagenes/servicios1.png" alt="Icono-Servicio">
+                    </div>
+                    <div>
+                        <h3>Cursos de formación para profesores de Colegio</h3>
+                        <p>Enseñando a enseñar en las áreas de Matemáticas y Computación, con un enfoque práctico y basado en las nuevas tecnologías de información y comunicación, respetando los lineamientos educativos para secundaria, pero con una proyección de utilidad para la transición de alumnos Colegio - Universidad.</p>
+                    </div>
+                 </div>
+
+                 <div class="servicio">
+                    <div>
+                    <img src="Imagenes/servicios2.png" alt="Icono-Servicio">
+                    </div>
+                    <div>
+                        <h3>Cursos de actualización para profesionales</h3>
+                        <p>Orientado a la actualización de profesionales egresados de las carreras de Matemáticas, Informática y Sistemas, además de otras carreras, en tecnologías informáticas emergentes o de tendencia. Todos los cursos con valor curricular para los participantes.</p>
+                    </div>
+                 </div>
+
+                 <div class="servicio">
+                    <div>
+                    <img src="Imagenes/servicios3.png" alt="Icono-Servicio">
+                    </div>
+                    <div>
+                        <h3>Asesoramiento en la enseñanza de las Matemáticas y la Informática</h3>
+                        <p>Brindamos asesoramiento y seguimiento a profesores de secundaria y docentes universitarios de las áreas de Matemáticas e Informática en métodos, técnicas y herramientas pedagógicas que mejoren su práctica docente y el aprendizaje significativo de sus estudiantes.</p>
+                    </div>
+                </div>
+
+                 <div class="servicio">
+                    <div>
+                    <img src="Imagenes/servicios4.png" alt="Icono-Servicio">
+                    </div>
+                    <div>
+                        <h3>Conferencias, seminarios especializados</h3>
+                        <p>Facilitamos nuestros ambientes e infraestructura para conferencias, seminarios, talleres, conversatorios con profesionales destacados locales o extranjeros, que quieran compartir sus experiencias y conocimientos con profesionales y estudiantes de nuestra universidad. Disponemos de dos salas con capacidad de 40 personas cada una, equipados con: data display, pizarras, porta banderas, etc.</p>
+                    </div>
+                </div>
+
+
+                 <div class="servicio servicioPar">
+                    <div>
+                    <img src="Imagenes/servicios5.png" alt="Icono-Servicio">
+                    </div>
+                    <div>
+                        <h3>Alquiler de ambientes</h3>
+                        <p>Disponemos de dos ambientes cómodos para defensas públicas, cursos, seminarios, talleres, de carácter privado, con todo el equipamiento para el éxito de sus eventos.</p>
+                    </div>
+                </div>
+            </section>
+            <hr class="separadorSeccion">
+
+            <!-- SECCION 6 -->
+            <section id="icpc" class="w3-row-padding seccion6">
+                <h2>ICPC UMSS</h2>
+                <p>El Centro MEMI acoge en su infraestructura al ICPC UMSS</p>
+                <h3>Afiches</h3>
+                <form action="" onsubmit="registrarAfiche(event)">
+                    <h4>Registro de Afiches</h4>
+                    <div>
+                        <label>Archivo</label>
+                        <input type="file" accept="image/*" required>
+                        <button type="submit">Subir Afiche</button>
+                    </div>
+                </form>
+                <div class="afiches">
+                    <div class="w3-col s12 m6 l4 w3-row-padding">
+                        <img src="Imagenes/afiche1.png" alt="">
+                    </div>
+                </div>
+                <h3>Fotos y Videos</h3>
+                <form action="" onsubmit="registrarFotoVideo(event)">
+                    <h4>Registro de Fotos / Videos</h4>
+                     <div>
+                        <label>Archivo</label>
+                        <input type="file" accept="image/*,video/*" required>
+                        <button type="submit">Subir Foto/Video</button>
+                    </div>
+                </form>
+                <div class="fotos_videos">
+                    <div class="w3-col s12 m6 l4 w3-row-padding">
+                        <img src="Imagenes/icpc_foto1.png" alt="">
+                    </div>
+                    <div class="w3-col s12 m6 l4 w3-row-padding">
+                        <img src="Imagenes/icpc_foto2.png" alt="">
+                    </div>
+                    <div class="w3-col s12 m6 l4 w3-row-padding">
+                        <video controls >
+                            <source src="Videos/video1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </section>
+            <hr class="separadorSeccion">
+            <!-- SECCION 7 -->
+            <section id="contacto" class="w3-row-padding seccion7">
+                <h2>CONTACTO</h2>
+                <div class="w3-col s12 m6 l4 ">
+                    <div><i class="fa-solid fa-location-dot w3-hover-text-blue icono"></i><span>Campus Central UMSS Edificio MEMI</span></div>
+                    <div><i class="fa-solid fa-phone w3-hover-text-teal icono"></i><span>(+591) 4 4666037</span></div>
+                    <div><i class="fa-solid fa-network-wired w3-hover-text-indigo ip"></i><span>36540</span></div>
+                    <div><i class="fa-solid fa-envelope w3-hover-text-orange icono"></i><span>memi@fcyt.umss.edu.bo</span></div>
+                </div>
+                <div class="w3-col s12 m6 l4">
+                    <img src="Imagenes/ubicacion.png" alt="">
+                </div>
+                <div class="w3-col s12 m6 l4 w3-center">
+                <iframe src="https://www.youtube.com/embed/Zxy8tJvgArY"></iframe>
+                </div>
+            </section>
+            <hr class="separadorSeccion">
+        </article>
+    </main>
+    <footer>
+        <div class="contenedorLogoSanSimon"><img src="Imagenes/simboloSanSimon.png" alt="Logo-San Simon"></div>
+        <div class="contenedorDerechos"><small>DERECHOS RESERVADOS © 2025 · UNIVERSIDAD MAYOR DE SAN SIMÓN · Visítanos en nuestras RRSS</small></div>
+        <div class="contenedorIconosFooter">
+           <a href="https://www.facebook.com/memiumss/?locale=es_LA" target="_blank" class="footerIcono1">
+                <i class="fa-brands fa-facebook-f w3-hover-text-blue"></i>
+            </a>
+            <a href="https://mail.google.com/mail/?view=cm&to=memi@fcyt.umss.edu.bo" target="_blank" class=" footerIcono2">
+                <i class="fa-solid fa-envelope w3-hover-text-orange"></i>
+            </a>
+            <a href="http://www.fcyt.umss.edu.bo/" target="_blank" class="footerIcono3"><i class="fa-solid fa-earth-americas w3-hover-text-teal"></i></a>
+        </div>
+    </footer>
+    <script src="Javascript/logica.js"></script>
+</body>
+</html>
